@@ -2,7 +2,7 @@
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
-$salt = "9&Gtfsd8f6(&^8kh";
+$salt = "9&Gtfsd8f6(&^8kh"; // should pull this into a git ignored config file later on
 @$apiquery = $_GET['q'];
 if ($_SERVER['REQUEST_METHOD'] === 'POST' or $apiquery) {
     include_once("./rest.php");
