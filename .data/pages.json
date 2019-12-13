@@ -1,0 +1,20 @@
+[
+    {
+        "id":1,
+        "name":"Home",
+        "slug": "home",
+        "body": "This is my home page",
+        "template": "main"
+    },{
+        "id":2,
+        "name":"Not Found",
+        "slug": "not-found",
+        "body": "404 not found",
+        "template": "main"
+    },{
+        "id":3,
+        "name":"Login",
+        "slug": "login",
+        "template": "login"
+    }
+]
